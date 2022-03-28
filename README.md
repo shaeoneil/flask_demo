@@ -17,6 +17,7 @@ Basic structure for starting a Flask project with Jinja templates
 
 6. Continue working with the project as you normally would.
 
+- [x] ~~Get flask running~~
 - [ ] Add web form for users 
 - [ ] Collect web form data and manipulate 
 - [ ] Read API data from another source 
