@@ -22,7 +22,7 @@ def add_friend():
         email = form['email']
         print(fname)
         print(lname)
-        friend_dict = {"name": fname + " " + lname+ "email":email}
+        friend_dict = {"name": fname + " " + lname, "email": email}
         print(friend_dict)
         friend_list.append(friend_dict)
         print(friend_list)
