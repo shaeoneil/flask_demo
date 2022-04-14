@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>{{ pageTitle }}</title>
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
-</head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/stylesheet.css') }}"
+    />
+  </head>
 
   <body>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/age">age</a></li>
+    </ul>
 
-      {% block body %}
-
-	  {% endblock %}
-
- </body>
-
+    {% block body %} {% endblock %}
+  </body>
 </html>
